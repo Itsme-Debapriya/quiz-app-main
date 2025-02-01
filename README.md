@@ -41,7 +41,7 @@ To run this project locally, you'll need to have the following installed:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Itsme-Debapriya/quiz-app-main.git
-   cd quiz-app
+   cd quiz-app-main
    ```
 2. **Install dependencies: Run the following command to install all required dependencies:**
    ```bash
@@ -49,7 +49,7 @@ To run this project locally, you'll need to have the following installed:
    ```
 3. **Start the development server: To run the app locally, use:**
    ```bash
-   npm start
+   npm run dev
    ```
    
 
