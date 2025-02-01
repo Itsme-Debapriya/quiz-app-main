@@ -1,0 +1,94 @@
+/* General App Styling */
+body {
+  background-color: #e0c4c4;
+  color: #ffffff;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  background: #c59999;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px rgba(131, 84, 84, 0.2);
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(135deg, #ccd6da, #00d4ff);
+  color: rgb(0, 0, 0);
+  padding: 12px 24px;
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ffffff, #a3a061);
+  transform: scale(1.05);
+}
+
+/* Quiz Elements */
+.quiz-start, .question, .result {
+  margin: 20px;
+  padding: 20px;
+  background: #2e2e19;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.options button {
+  padding: 12px;
+  font-size: 20px;
+  margin: 10px;
+  width: 100%;
+  border-radius: 6px;
+  background:linear-gradient(135deg, #ccd6da, #00d4ff);
+}
+
+.options button:hover {
+  background:linear-gradient(135deg, #ffffff, #a3a061);
+}
+
+/* Leaderboard Styles */
+.leaderboard {
+  margin: 20px;
+  padding: 20px;
+  background-color:#2e2e19; /* White background for leaderboard */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.leaderboard h2 {
+  margin-bottom: 10px;
+}
+
+.leaderboard ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+.leaderboard li {
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0; /* Light border for separation */
+}
+
+.leaderboard li:last-child {
+  border-bottom: none; /* Remove border for last item */
+}
