@@ -15,8 +15,6 @@ This is a *Web-based Quiz Application* built using *React.js, with a focus on **
 
 ---
 
-## Screenshots & Videos
-
 ### Screenshots
 
 1. *Start Screen*:  
@@ -42,7 +40,7 @@ To run this project locally, you'll need to have the following installed:
 
 1. *Clone the repository*:
    bash
-   git clone ( link repo )
+   git clone https://github.com/Itsme-Debapriya/quiz-app-main.git
    cd quiz-app
    
 2. *Install dependencies: Run the following command to install all required dependencies:*
@@ -76,11 +74,9 @@ To run this project locally, you'll need to have the following installed:
 
 # Future Enhancements
 
-- *Add Timer:* Introduce a countdown timer to make the quiz more challenging.
 - *Leaderboard:* Implement a leaderboard to show the top scores.
-- *User Authentication:* Add user login and registration features to track scores across multiple sessions.
-- *Question Randomization:* Shuffle questions and answer options for a unique experience each time.
-
+- *User Engagement:* Makes the application feel more interactive and user-friendly.
+- *Name Input Feature:* This feature allows users to enter their names before starting the quiz.
 # License
 
 This project is licensed under the MIT License - see the [LICENSE]() file for details.
